@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asdsda.css">
+</head>
+<body>
+    <h1 class="zag_w_n" id="zag_w">Расписание</h1>
+    <div class="pon_w_n" id="to_w">
+        <table class="lol">
+            <tr>
+                <th> </th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+            </tr>
+            <tr>
+                <td>Понедельник</td>
+                <td class="1p">
+                    <select id="mySelect_p_1" onchange="updateVariable1p()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="2p">
+                    <select id="mySelect_p_2" onchange="updateVariable2p()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="3p">
+                    <select id="mySelect_p_3" onchange="updateVariable3p()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="4p">
+                    <select id="mySelect_p_4" onchange="updateVariable4p()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="5p">
+                    <select id="mySelect_p_5" onchange="updateVariable5p()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="6p">
+                    <select id="mySelect_p_6" onchange="updateVariable6p()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="7p">
+                    <select id="mySelect_p_7" onchange="updateVariable7p()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="8p">
+                    <select id="mySelect_p_8" onchange="updateVariable8p()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Вторник</td>
+                <td class="1v">
+                    <select id="mySelect_v_1" onchange="updateVariable1v()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="2v">
+                    <select id="mySelect_v_2" onchange="updateVariable2v()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="3v">
+                    <select id="mySelect_v_3" onchange="updateVariable3v()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="4v">
+                    <select id="mySelect_v_4" onchange="updateVariable4v()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="5v">
+                    <select id="mySelect_v_5" onchange="updateVariable5v()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="6v">
+                    <select id="mySelect_v_6" onchange="updateVariable6v()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="7v">
+                    <select id="mySelect_v_7" onchange="updateVariable7v()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="8v">
+                    <select id="mySelect_v_8" onchange="updateVariable8v()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Среда</td>
+                <td class="1s">
+                    <select id="mySelect_s_1" onchange="updateVariable1s()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="2s">
+                    <select id="mySelect_s_2" onchange="updateVariable2s()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="3s">
+                    <select id="mySelect_s_3" onchange="updateVariable3s()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="4s">
+                    <select id="mySelect_s_4" onchange="updateVariable4s()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="5s">
+                    <select id="mySelect_s_5" onchange="updateVariable5s()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="6s">
+                    <select id="mySelect_s_6" onchange="updateVariable6s()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="7s">
+                    <select id="mySelect_s_7" onchange="updateVariable7s()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="8s">
+                    <select id="mySelect_s_8" onchange="updateVariable8s()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Четверг</td>
+                <td class="1c">
+                    <select id="mySelect_c_1" onchange="updateVariable1c()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="2c">
+                    <select id="mySelect_c_2" onchange="updateVariable2c()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="3c">
+                    <select id="mySelect_c_3" onchange="updateVariable3c()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="4c">
+                    <select id="mySelect_c_4" onchange="updateVariable4c()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="5c">
+                    <select id="mySelect_c_5" onchange="updateVariable5c()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="6c">
+                    <select id="mySelect_c_6" onchange="updateVariable6c()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="7c">
+                    <select id="mySelect_c_7" onchange="updateVariable7c()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="8c">
+                    <select id="mySelect_c_8" onchange="updateVariable8c()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Пятница</td>
+                <td class="1py">
+                    <select id="mySelect_py_1" onchange="updateVariable1py()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="2py">
+                    <select id="mySelect_py_2" onchange="updateVariable2py()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="3py">
+                    <select id="mySelect_py_3" onchange="updateVariable3py()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="4py">
+                    <select id="mySelect_py_4" onchange="updateVariable4py()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="5py">
+                    <select id="mySelect_py_5" onchange="updateVariable5py()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="6py">
+                    <select id="mySelect_py_6" onchange="updateVariable6py()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="7py">
+                    <select id="mySelect_py_7" onchange="updateVariable7py()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+                <td class="8py">
+                    <select id="mySelect_py_8" onchange="updateVariable8py()">
+                        <option value=" "> </option>
+                        <option value="Химия">Химия</option>
+                        <option value="Физика">Физика</option>
+                        <option value="Основы права">Основы права</option>
+                        <option value="История Казахстана">История Казахстана</option>
+                        <option value="История Мира">История Мира</option>
+                        <option value="Английский язык">Английский язык</option>
+                        <option value="Литература">Литература</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="Алгебра">Алгебра</option>
+                        <option value="Геометрия">Геометрия</option>
+                        <option value="Физкультура">Физкультура</option>
+                        <option value="Биология">Биология</option>
+                    </select>
+                </td>
+            </tr>
+        </table>    
+    </div>
+    <button onclick="reg()">Войти</button>
+    <div id="help" class="ne_amogus">
+        <p>Войти</p>
+        <p>Логин<form id="myForm">
+            <input type="text" id="myInput" placeholder="Введите что-то">
+            <input type="submit" value="Отправить">
+        </form></p>
+        <p>Пароль
+        <form id="myForm1">
+            <input type="text" id="myInput1" placeholder="Введите что-то">
+        </form></p>
+        
+        
+        <button onclick="non_reg()">X</button>
+    </div>
+    
+    <h1 class="zag_r_n" id="zag_r">Расписание</h1>
+    <div class="pon_r_n" id="to_r">
+        <table class="lol">
+            <tr>
+                <th> </th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+            </tr>
+            <tr>
+                <td>Понедельник</td>
+                <td id="1p_r">_______</td>
+                <td id="2p_r">_______</td>
+                <td id="3p_r">_______</td>
+                <td id="4p_r">_______</td>
+                <td id="5p_r">_______</td>
+                <td id="6p_r">_______</td>
+                <td id="7p_r">_______</td>
+                <td id="8p_r">_______</td>
+            </tr>
+            <tr>
+                <td>Вторник</td>
+                <td id="1v_r">_______</td>
+                <td id="2v_r">_______</td>
+                <td id="3v_r">_______</td>
+                <td id="4v_r">_______</td>
+                <td id="5v_r">_______</td>
+                <td id="6v_r">_______</td>
+                <td id="7v_r">_______</td>
+                <td id="8v_r">_______</td>
+            </tr>
+            <tr>
+                <td>Среда</td>
+                <td id="1s_r">_______</td>
+                <td id="2s_r">_______</td>
+                <td id="3s_r">_______</td>
+                <td id="4s_r">_______</td>
+                <td id="5s_r">_______</td>
+                <td id="6s_r">_______</td>
+                <td id="7s_r">_______</td>
+                <td id="8s_r">_______</td>
+            </tr>
+            <tr>
+                <td>Четверг</td>
+                <td id="1c_r">_______</td>
+                <td id="2c_r">_______</td>
+                <td id="3c_r">_______</td>
+                <td id="4c_r">_______</td>
+                <td id="5c_r">_______</td>
+                <td id="6c_r">_______</td>
+                <td id="7c_r">_______</td>
+                <td id="8c_r">_______</td>
+            </tr>
+            <tr>
+                <td>Пятница</td>
+                <td id="1py_r">_______</td>
+                <td id="2py_r">_______</td>
+                <td id="3py_r">_______</td>
+                <td id="4py_r">_______</td>
+                <td id="5py_r">_______</td>
+                <td id="6py_r">_______</td>
+                <td id="7py_r">_______</td>
+                <td id="8py_r">_______</td>
+            </tr>
+        </table>    
+    </div>
+    <script>
+        const rer = document.getElementById("help");
+        const s1=document.getElementById("help_me");
+        function reg(){
+            rer.className = "amogus";
+        }
+        function non_reg(){
+            rer.className = "ne_amogus";
+        }
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Предотвращаем отправку формы
+
+            // Получаем значение из поля ввода
+            var userInput = document.getElementById("myInput").value;
+            var userInput1 = document.getElementById("myInput1").value;
+            // Делаем что-то с полученными данными (например, выводим в консоль)
+            console.log("Пользователь ввел: " + userInput1);
+            console.log("Пользователь ввел: " + userInput);
+            if (userInput === "admin") {
+                if (userInput1==="1234"){
+                    document.getElementById('to_w').className='pon_w';
+                    document.getElementById('to_r').className='pon_r';
+                    document.getElementById('zag_w').className='zag_w';
+                    document.getElementById('zag_r').className='zag_r';
+                }
+            } else if (userInput === "teacher") {
+                if (userInput1==="1234"){
+                    document.getElementById('to_r').className='pon_r';
+                    document.getElementById('zag_r').className='zag_r';
+                }
+            } else if (userInput === "student") {
+                if (userInput1==="1234"){
+                    document.getElementById('to_w').className='pon_w';
+                    document.getElementById('zag_w').className='zag_w';
+                }
+            }
+        });
+        function updateVariable1p() {
+            document.getElementById('1p_r').innerHTML= document.getElementById("mySelect_p_1").value;
+        }
+        function updateVariable2p() {
+            document.getElementById('2p_r').innerHTML= document.getElementById("mySelect_p_2").value;
+        }
+        function updateVariable3p() {
+            document.getElementById('3p_r').innerHTML= document.getElementById("mySelect_p_3").value;
+        }
+        function updateVariable4p() {
+            document.getElementById('4p_r').innerHTML= document.getElementById("mySelect_p_4").value;
+        }
+        function updateVariable5p() {
+            document.getElementById('5p_r').innerHTML= document.getElementById("mySelect_p_5").value;
+        }
+        function updateVariable6p() {
+            document.getElementById('6p_r').innerHTML= document.getElementById("mySelect_p_6").value;
+        }
+        function updateVariable7p() {
+            document.getElementById('7p_r').innerHTML= document.getElementById("mySelect_p_7").value;
+        }
+        function updateVariable8p() {
+            document.getElementById('8p_r').innerHTML= document.getElementById("mySelect_p_8").value;
+        }
+
+        function updateVariable1v() {
+            document.getElementById('1v_r').innerHTML= document.getElementById("mySelect_v_1").value;
+        }
+        function updateVariable2v() {
+            document.getElementById('2v_r').innerHTML= document.getElementById("mySelect_v_2").value;
+        }
+        function updateVariable3v() {
+            document.getElementById('3v_r').innerHTML= document.getElementById("mySelect_v_3").value;
+        }
+        function updateVariable4v() {
+            document.getElementById('4v_r').innerHTML= document.getElementById("mySelect_v_4").value;
+        }
+        function updateVariable5v() {
+            document.getElementById('5v_r').innerHTML= document.getElementById("mySelect_v_5").value;
+        }
+        function updateVariable6v() {
+            document.getElementById('6v_r').innerHTML= document.getElementById("mySelect_v_6").value;
+        }
+        function updateVariable7v() {
+            document.getElementById('7v_r').innerHTML= document.getElementById("mySelect_v_7").value;
+        }
+        function updateVariable8v() {
+            document.getElementById('8v_r').innerHTML= document.getElementById("mySelect_v_8").value;
+        }
+
+        function updateVariable1s() {
+            document.getElementById('1s_r').innerHTML= document.getElementById("mySelect_s_1").value;
+        }
+        function updateVariable2s() {
+            document.getElementById('2s_r').innerHTML= document.getElementById("mySelect_s_2").value;
+        }
+        function updateVariable3s() {
+            document.getElementById('3s_r').innerHTML= document.getElementById("mySelect_s_3").value;
+        }
+        function updateVariable4s() {
+            document.getElementById('4s_r').innerHTML= document.getElementById("mySelect_s_4").value;
+        }
+        function updateVariable5s() {
+            document.getElementById('5s_r').innerHTML= document.getElementById("mySelect_s_5").value;
+        }
+        function updateVariable6s() {
+            document.getElementById('6s_r').innerHTML= document.getElementById("mySelect_s_6").value;
+        }
+        function updateVariable7s() {
+            document.getElementById('7s_r').innerHTML= document.getElementById("mySelect_s_7").value;
+        }
+        function updateVariable8s() {
+            document.getElementById('8s_r').innerHTML= document.getElementById("mySelect_s_8").value;
+        }
+
+        function updateVariable1c() {
+            document.getElementById('1c_r').innerHTML= document.getElementById("mySelect_c_1").value;
+        }
+        function updateVariable2c() {
+            document.getElementById('2c_r').innerHTML= document.getElementById("mySelect_c_2").value;
+        }
+        function updateVariable3c() {
+            document.getElementById('3c_r').innerHTML= document.getElementById("mySelect_c_3").value;
+        }
+        function updateVariable4c() {
+            document.getElementById('4c_r').innerHTML= document.getElementById("mySelect_c_4").value;
+        }
+        function updateVariable5c() {
+            document.getElementById('5c_r').innerHTML= document.getElementById("mySelect_c_5").value;
+        }
+        function updateVariable6c() {
+            document.getElementById('6c_r').innerHTML= document.getElementById("mySelect_c_6").value;
+        }
+        function updateVariable7c() {
+            document.getElementById('7c_r').innerHTML= document.getElementById("mySelect_c_7").value;
+        }
+        function updateVariable8c() {
+            document.getElementById('8c_r').innerHTML= document.getElementById("mySelect_c_8").value;
+        }
+
+        function updateVariable1py() {
+            document.getElementById('1py_r').innerHTML= document.getElementById("mySelect_py_1").value;
+        }
+        function updateVariable2py() {
+            document.getElementById('2py_r').innerHTML= document.getElementById("mySelect_py_2").value;
+        }
+        function updateVariable3py() {
+            document.getElementById('3py_r').innerHTML= document.getElementById("mySelect_py_3").value;
+        }
+        function updateVariable4py() {
+            document.getElementById('4py_r').innerHTML= document.getElementById("mySelect_py_4").value;
+        }
+        function updateVariable5py() {
+            document.getElementById('5py_r').innerHTML= document.getElementById("mySelect_py_5").value;
+        }
+        function updateVariable6py() {
+            document.getElementById('6py_r').innerHTML= document.getElementById("mySelect_py_6").value;
+        }
+        function updateVariable7py() {
+            document.getElementById('7py_r').innerHTML= document.getElementById("mySelect_py_7").value;
+        }
+        function updateVariable8py() {
+            document.getElementById('8py_r').innerHTML= document.getElementById("mySelect_py_8").value;
+        }
+    </script>
+</body>
+</html>
