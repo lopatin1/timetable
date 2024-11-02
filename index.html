@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timetable</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="asdsda.css">
 </head>
 <body>
     <h1 class="zag_w_n" id="zag_w">Расписание</h1>
@@ -718,21 +718,6 @@
             </tr>
         </table>    
     </div>
-    <button onclick="reg()">Войти</button>
-    <div id="help" class="ne_amogus">
-        <p>Войти</p>
-        <p>Логин<form id="myForm">
-            <input type="text" id="myInput" placeholder="Введите что-то">
-            <input type="submit" value="Отправить">
-        </form></p>
-        <p>Пароль
-        <form id="myForm1">
-            <input type="text" id="myInput1" placeholder="Введите что-то">
-        </form></p>
-        
-        
-        <button onclick="non_reg()">X</button>
-    </div>
     
     <h1 class="zag_r_n" id="zag_r">Расписание</h1>
     <div class="pon_r_n" id="to_r">
@@ -805,14 +790,33 @@
             </tr>
         </table>    
     </div>
+    <div class="container" id="container">
+        <button onclick="reg()">Войти</button>
+    </div>
+    <div id="help" class="ne_amogus">
+        <p>Войти</p>
+        <p>Логин<form id="myForm">
+            <input type="text" id="myInput" placeholder="Введите что-то">
+            <input type="submit" value="Отправить">
+        </form></p>
+        <p>Пароль
+        <form id="myForm1">
+            <input type="text" id="myInput1" placeholder="Введите что-то">
+        </form></p>
+        
+        
+        <button onclick="non_reg()">X</button>
+    </div>
     <script>
         const rer = document.getElementById("help");
         const s1=document.getElementById("help_me");
         function reg(){
             rer.className = "amogus";
+            document.getElementById('container').className="container_n";
         }
         function non_reg(){
             rer.className = "ne_amogus";
+            document.getElementById('container').className="container";
         }
         document.getElementById("myForm").addEventListener("submit", function(event) {
             event.preventDefault(); // Предотвращаем отправку формы
